@@ -15,7 +15,8 @@ Dependencies:
 ### 1. Clone this repository
 ```bash
 git clone https://github.com/akashgiricse/village-diary.git
-cd lets_quiz
+# in the cloned directory goto village_diary directory i.e.
+cd village_diary
 ```
 
 ### 2. Install the [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/)
@@ -23,24 +24,24 @@ Follow [instructions on official documentation page](https://virtualenvwrapper.r
 
 ### 3. Create the virtualenv
 ```bash
-## run following command from `lets_quiz` directory
-mkvirtualenv lets_quiz -a "$(pwd)" -p python3.6
+## run following command from `village_diary` directory
+mkvirtualenv village_diary -a "$(pwd)" -p python3.6
 ```
 
 ### 4. Install python packages
 ```bash
-## Activate the virtualenv which you created on the last step
-workon lets_quiz
+## Activate the virtualenv which you created on the last step (should be automatically activated)
+workon village_diary
 cd ..
 pip install -r requirements.txt
 ```
 
 ### 5. Setup the database
-*TODO - Add instructions for this when I start using MySQL database.*
+*TODO - Add instructions for this when I start using MySQL/Postgre database.*
 
 ### 6. Run database migrations
 ```bash
-cd lets_quiz
+cd village_diary
 python manage.py migrate
 ```
 
@@ -53,22 +54,3 @@ python manage.py createsuperuser
 ```bash
 python manage.py runserver
 ```
-
-## Contribute
-
-- Issue Tracker: [Issues](https://github.com/akashgiricse/lets-quiz/issues)
-- Source Code: [Download zip: Release v1.0.1](https://github.com/akashgiricse/lets-quiz/archive/1.0.1.zip)
-
-## Contributors
-
-* [Akash Giri](https://github.com/akashgiricse)
-
-## Support
-
-* If you are having issues, please let me know.<gr>
-I have a mailing list located at: buggyrango@gmail.com
-
-## License
-MIT License
-
-Copyright (c) 2018 Akash Giri.
