@@ -1,0 +1,17 @@
+{% load crispy_forms_tags %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Village Diary | Data Entry</title>
+</head>
+
+<body>
+  <h3>Add a New Project</h3>
+  <form method="POST" action="" enctype="multipart/form-data">{% csrf_token %}
+        {{ form|crispy }}
+        <center><input type="submit" value="Save the Data"></center>
+    </form>
+</body>
+</html>

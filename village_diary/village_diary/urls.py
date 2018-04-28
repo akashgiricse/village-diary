@@ -15,7 +15,11 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+from diary.views import dataEntryView, loginView, registerView
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^dataEntry/', dataEntryView),
+    url(r'^login/', loginView),
+    url(r'^register/', registerView),
 ]
