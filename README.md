@@ -4,7 +4,9 @@
 ## Current Featur
 
 *TODO*
-
+- Add Template for Login, Register
+- Data Retrival
+- Search Feature
 
 ## Getting started with development
 Dependencies:
