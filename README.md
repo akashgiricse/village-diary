@@ -1,7 +1,7 @@
 # Village diary
 
 
-## Current Featur
+## Current Features
 
 *TODO*
 - Add Template for Login, Register
