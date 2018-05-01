@@ -8,6 +8,9 @@
 - Data Retrival
 - Search Feature
 
+## Admin Login Credentials
+- username : admin
+- password : admin@123
 ## Getting started with development
 Dependencies:
 - Python 3.6.x
